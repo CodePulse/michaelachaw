@@ -1,0 +1,12 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+docroot/sites/default/settings.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+.idea/
+docroot/.DS_Store
+.DS_Store
+docroot/sites/default/files/
